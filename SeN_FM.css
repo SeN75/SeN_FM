@@ -14,6 +14,18 @@
 
 
 /* -- Display /-- */
+/* --/ position -- */
+.p-ab{
+    position: absolute;
+}
+
+.top-40-{
+    top: 40%;
+}
+.right-40-{
+    right: 40%;
+}
+/* -- position /-- */
 
 /* --/ Text-Align -- */
 
@@ -30,6 +42,10 @@
 
 /* --/ margin -- */
 
+.margin{
+    margin: auto;
+}
+
 .margin-0 {
     margin: 0 !important;
 }
@@ -37,7 +53,12 @@
 .margin-10 {
     margin: 10px;
 }
-
+.margin-top--20{
+    margin-top: -20px;
+}
+.margin-top--10{
+    margin-top: -10px;
+}
 .margin-top-5 {
     margin-top: 5px;
 }
@@ -55,7 +76,18 @@
 .margin-top-40 {
     margin-top: 40px;
 }
-
+.margin-top-100{
+    margin-top: 100px;
+}
+.margin-top-120{
+    margin-top:120px;
+}
+.margin-right-1{
+    margin-right: 1px !important;
+}
+.margin-right-2{
+    margin-right: 2px;
+}
 .margin-right {
     margin-right: auto;
 }
@@ -71,9 +103,23 @@
 .margin-bottom-10 {
     margin-bottom: 10px;
 }
-
+.margin-bottom-20{
+    margin-bottom: 20px;
+}
+.margin-bottom-40{
+    margin-bottom: 40px;
+}
+.margin-bottom-60{
+margin-bottom: 60px
+}
 .margin-left {
     margin-left: auto;
+}
+.margin-left-1{
+    margin-left: 1px !important;
+}
+.margin-left-2{
+    margin-left: 2pc;
 }
 .margin-left-50{
     margin-left: 50px;
@@ -93,6 +139,17 @@
 .padding-30 {
     padding: 30px !important;
 }
+.padding-40{
+    padding: 40px;
+}
+.padding-60{
+    padding: 60px;
+}
+.padding-80{
+    padding: 80px;
+}.padding-100{
+    padding: 100px;
+}
 .padding-16-27{
     padding:16px 27px;
 }
@@ -102,15 +159,23 @@
 .padding-top-5 {
     padding-top: 5px;
 }
-
+.padding-top-10{
+    padding-top: 10px;
+}
 .padding-top-20 {
     padding-top: 20px;
 }
-
+.padding-top-30{
+    padding-top: 30px;
+}
 .padding-top-40 {
     padding-top: 40px;
 }
-
+.padding-top-50{
+    padding-top: 50px
+}.padding-top-60{
+    padding-top: 60px
+}
 .padding-left-right-20 {
     padding-left: 20px;
     padding-right: 20px;
@@ -129,6 +194,15 @@
 .padding-bottom-5 {
     padding-bottom: 5px;
 }
+.padding-bottom-10{
+    padding-bottom: 10px;
+}
+.padding-bottom-20{
+    padding-bottom: 20px;
+}
+.padding-bottom-30{
+    padding-bottom: 30px;
+}
 
 /* -- padding /--*/
 
@@ -140,7 +214,12 @@
 .font-size-13 {
     font-size: 13px;
 }
-
+.font-size-15{
+font-size: 15px;
+}
+.font-size-18{
+    font-size: 18px;
+}
 .font-size-20 {
     font-size: 20px;
 }
@@ -149,11 +228,28 @@
     font-size: 30px;
 }
 
-
+.font-size-40{
+    font-size: 40px;
+}
 /* -- font size /-- */
-
+/* -- / width -- */
+.width-150{
+    width: 150px;
+}
+/* --  width /-- */
 /* --/ height -- */
 .height-40-{
     height: 40%;
 }
+.height{
+    height: auto;
+}
+.height-150{
+    height: 150px;
+}
 /* -- height /-- */
+/* --/ min-height --*/
+.min-height-90-vh{
+    min-height: 90vh;
+}
+/* -- min-height /--*/
